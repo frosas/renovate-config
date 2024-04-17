@@ -7,6 +7,11 @@
 
 ## should
 
+- renovate to not rename a pr title
+  - that breaks the email threads from notifications
+  - how?
+    - https://docs.renovatebot.com/configuration-options/#prtitlestrict
+    - https://docs.renovatebot.com/configuration-options/#commitmessageextra
 - how to add comments to default.json?
 
 ## could
