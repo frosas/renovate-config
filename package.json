@@ -3,6 +3,6 @@
   "private": true,
   "scripts": {
     "test": "npm run test-config",
-    "test-config": "npx -p renovate -y -- renovate-config-validator"
+    "test-config": "npx -p renovate -y -- renovate-config-validator default.json"
   }
 }
