@@ -5,3 +5,6 @@
 ## could
 
 - Renovate to only create PRs during off-hours (see https://docs.renovatebot.com/configuration-options/#schedule)
+- automerge to squash-merge
+  - https://docs.renovatebot.com/configuration-options/#automergestrategy
+  - leave it to "auto" and configure it via github settings instead?
