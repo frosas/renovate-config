@@ -1,3 +1,7 @@
 ## should
 
 - how to add comments to default.json?
+
+## could
+
+- Renovate to only create PRs during off-hours (see https://docs.renovatebot.com/configuration-options/#schedule)
