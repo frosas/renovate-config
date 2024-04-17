@@ -9,7 +9,7 @@
     {
       "matchManagers": ["npm"],
       "matchUpdateTypes": ["minor", "patch"],
-      "matchCurrentVersion": "!/^0/",
+      "matchCurrentVersion": ">= 1.0.0",
       "automerge": true
     }
   ]
