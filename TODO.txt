@@ -1,3 +1,10 @@
+## must
+
+- ensure automerge waits for all checks to pass
+  - see note in https://docs.renovatebot.com/configuration-options/#platformautomerge
+    - also, from "By default, Renovate will not automerge until it sees passing status checks / check runs for the branch" i understand it may merge as soon as _some_ checks pass
+  - consider platformAutomerge=false for the time being
+
 ## should
 
 - how to add comments to default.json?
