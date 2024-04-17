@@ -2,7 +2,8 @@
   "name": "renovate-config",
   "private": true,
   "scripts": {
+    "renovate-config-validator": "npx -p renovate -y -- renovate-config-validator",
     "test": "npm run test-config",
-    "test-config": "npx -p renovate -y -- renovate-config-validator default.json"
+    "test-config": "npm run renovate-config-validator default.json"
   }
 }
