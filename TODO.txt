@@ -12,12 +12,13 @@
 ## could
 
 - Renovate to only create PRs during off-hours (see https://docs.renovatebot.com/configuration-options/#schedule)
-- automerge to squash-merge
-  - https://docs.renovatebot.com/configuration-options/#automergestrategy
-  - leave it to "auto" and configure it via github settings instead?
 - simplify pr title
   - "Update dependency"
+
+## won't
+
 - renovate to not rename a pr title
+  - eg, by suffixing "autoclose" when it closes a pr
   - that breaks the email threads from notifications
   - how?
     - https://docs.renovatebot.com/configuration-options/#prtitlestrict
