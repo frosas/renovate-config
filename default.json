@@ -7,7 +7,8 @@
     "#": "Temporarily override the default 'before 4am on monday' schedule",
     "schedule": ["at any time"]
   },
-  "packageRules": [
+  "#": "Temporarily disabled as updating the lock files may just be enough",
+  "#packageRules": [
     {
       "matchManagers": ["npm"],
       "matchUpdateTypes": ["minor", "patch"],
