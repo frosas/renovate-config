@@ -4,16 +4,6 @@
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
-    "#": "Temporarily override the default 'before 4am on monday' schedule",
     "schedule": ["at any time"]
-  },
-  "#": "Temporarily disabled as updating the lock files may just be enough",
-  "#packageRules": [
-    {
-      "matchManagers": ["npm"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "matchCurrentVersion": ">= 1.0.0",
-      "automerge": true
-    }
-  ]
+  }
 }
