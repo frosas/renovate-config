@@ -7,7 +7,12 @@
 
 ## should
 
-- how to add comments to default.json?
+- support having comments in the default.json
+  - using json5 (ie, default.json5) should work
+    - source: https://docs.renovatebot.com/config-presets/
+    - vscode support is bad though
+      - not supported natively
+      - marketplace alternatives don't support other json ide features (eg, schema autocomplete)
 
 ## could
 
