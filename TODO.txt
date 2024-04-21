@@ -13,6 +13,10 @@
     - vscode support is bad though
       - not supported natively
       - marketplace alternatives don't support other json ide features (eg, schema autocomplete)
+- update lock files less regularly
+  - eg, once a week
+- skip updates less than one week old
+  - for security and stability
 
 ## could
 
@@ -30,3 +34,10 @@
     - https://docs.renovatebot.com/configuration-options/#commitmessageextra
   - it looks like some logic depends on the suffix "autoclose" to be present
     - https://github.com/renovatebot/renovate/blob/d6d1e57763ffefa04767a4d01b028b1d39f27188/lib/modules/platform/github/index.ts#L946
+- https://docs.renovatebot.com/key-concepts/automerge/#github-merge-queue
+  - mentioned in https://docs.renovatebot.com/upgrade-best-practices/#make-updating-easy-and-fast as a best practice but i'm not sure it's worth it in single-dev repos
+- lock file maintenance prs to include details about the changes
+  - eg, what packages were updated, their old and new versions, their changelog
+  - probably can't be done as a renovate user
+- https://docs.renovatebot.com/key-concepts/automerge/#branch-vs-pr-automerging
+  - not sure it's a good idea not getting any notification a repo was updated
