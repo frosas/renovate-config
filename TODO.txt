@@ -7,19 +7,23 @@
 
 ## should
 
+- update lock files less regularly
+  - eg, once a week
+
+## could
+
+- don't update to versions as soon as they're released
+  - eg, wait for a few days
+  - see https://docs.renovatebot.com/configuration-options/#minimumreleaseage
+  - for security and stability reasons
+    - eg, changes are a new version may require a follow-up version release to fix a bug
+    - eg, to allow other users to consume the new version and report/fix issues before i update
 - support having comments in the default.json
   - using json5 (ie, default.json5) should work
     - source: https://docs.renovatebot.com/config-presets/
     - vscode support is bad though
       - not supported natively
       - marketplace alternatives don't support other json ide features (eg, schema autocomplete)
-- update lock files less regularly
-  - eg, once a week
-- skip updates less than one week old
-  - for security and stability
-
-## could
-
 - Renovate to only create PRs during off-hours (see https://docs.renovatebot.com/configuration-options/#schedule)
 - simplify pr title
   - "Update dependency"
