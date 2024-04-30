@@ -6,7 +6,7 @@
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
-    "schedule": ["before 4am"]
+    "schedule": ["before 2am"]
   },
   "printConfig": true
 }
