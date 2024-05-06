@@ -3,6 +3,7 @@
   "extends": ["config:recommended"],
   "timezone": "Europe/London",
   "schedule": ["after 12am and before 6am"],
+  "rangeStrategy": "replace",
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
