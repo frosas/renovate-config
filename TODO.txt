@@ -18,13 +18,6 @@
   - for security and stability reasons
     - eg, changes are a new version may require a follow-up version release to fix a bug
     - eg, to allow other users to consume the new version and report/fix issues before i update
-- support having comments in the default.json
-  - using json5 (ie, default.json5) should work
-    - source: https://docs.renovatebot.com/config-presets/
-    - vscode support is bad though
-      - not supported natively
-      - marketplace alternatives don't support other json ide features (eg, schema autocomplete)
-- Renovate to only create PRs during off-hours (see https://docs.renovatebot.com/configuration-options/#schedule)
 - simplify pr title
   - "Update dependency"
 
@@ -45,3 +38,10 @@
   - probably can't be done as a renovate user
 - https://docs.renovatebot.com/key-concepts/automerge/#branch-vs-pr-automerging
   - not sure it's a good idea not getting any notification a repo was updated
+- support having comments in the default.json
+  - using json5 (ie, default.json5) should work
+    - source: https://docs.renovatebot.com/config-presets/
+    - vscode support is bad though
+      - not supported natively
+      - marketplace alternatives don't support other json ide features (eg, schema autocomplete)
+      - treating .json5 files as "JSON with Comments" doesn't do the trick as vscode prettier extension formats json5 files, making them invalid json with comments
