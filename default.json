@@ -2,12 +2,11 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
   "timezone": "Europe/London",
-  "schedule": ["after 12am and before 6am"],
+  "schedule": ["before 6am"],
   "rangeStrategy": "replace",
   "lockFileMaintenance": {
     "enabled": true,
-    "automerge": true,
-    "schedule": ["after 6am and before 11:59pm"]
+    "automerge": true
   },
   "printConfig": true
 }

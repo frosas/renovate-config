@@ -10,3 +10,7 @@ In your renovate.json file,
   "extends": ["github>frosas/renovate-config"]
 }
 ```
+
+### Development
+
+Schedule times can be reviewed with https://codepen.io/rationaltiger24/full/ZExQEgK
