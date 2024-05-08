@@ -20,6 +20,13 @@
     - eg, to allow other users to consume the new version and report/fix issues before i update
 - simplify pr title
   - "Update dependency"
+- switch to dependabot
+  - renovate doesn't seem very robust
+    - why does it take hours to automerge?
+    - some defaults make no sense to me (eg, rangeStrategy)
+  - i stopped using dependabot in the past because they removed automerge support but it seems there's an alternative now
+    - https://docs.github.com/en/code-security/dependabot/working-with-dependabot/automating-dependabot-with-github-actions#common-dependabot-automations
+  - it uses github actions, which seem more customisable
 
 ## won't
 
