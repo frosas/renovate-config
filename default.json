@@ -4,9 +4,9 @@
   "timezone": "Europe/London",
   "schedule": ["before 6am"],
   "rangeStrategy": "replace",
+  "printConfig": true,
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
-  },
-  "printConfig": true
+  }
 }
