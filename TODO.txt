@@ -9,6 +9,9 @@
 
 - update lock files less regularly
   - eg, once a week
+- allow minor/patch update PRs
+  - they are manually disabled now
+  - eg, once a month to reduce noise
 
 ## could
 
