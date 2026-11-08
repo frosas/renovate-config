@@ -9,6 +9,12 @@
     "enabled": true,
     "automerge": true
   },
+  "minimumReleaseAge": "3 days",
+  "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
+    "minimumReleaseAge": null,
+    "labels": ["security"]
+  },
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
