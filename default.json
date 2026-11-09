@@ -7,9 +7,10 @@
   "printConfig": true,
   "lockFileMaintenance": {
     "enabled": true,
-    "automerge": true
+    "automerge": true,
+    "minimumReleaseAge": null
   },
-  "minimumReleaseAge": "3 days",
+  "minimumReleaseAge": "1 day",
   "osvVulnerabilityAlerts": true,
   "vulnerabilityAlerts": {
     "minimumReleaseAge": null,
